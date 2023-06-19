@@ -12,4 +12,36 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    background: #1B2430;
+}
+
+button {
+    background: #6D67E4;
+    color: #E8F3D6;
+    font-family: inherit;
+    letter-spacing: 1.5px;
+    padding: 0.6em 1.3em;
+    font-weight: 700;
+    font-size: 18px;
+    border: 3px solid #453C67;
+    border-radius: 0.4em;
+    -webkit-box-shadow: 0.1em 0.1em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+}
+
+button:hover {
+    -webkit-transform: translate(-0.05em, -0.05em);
+    -ms-transform: translate(-0.05em, -0.05em);
+    transform: translate(-0.05em, -0.05em);
+    -webkit-box-shadow: 0.15em 0.15em;
+    box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+    -webkit-transform: translate(0.05em, 0.05em);
+    -ms-transform: translate(0.05em, 0.05em);
+    transform: translate(0.05em, 0.05em);
+    -webkit-box-shadow: 0.05em 0.05em;
+    box-shadow: 0.05em 0.05em;
 }
