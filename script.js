@@ -17,12 +17,12 @@ async function selectMediaStream() {
     }
 }
 
-function stopCapture(evt) {
-    let tracks = videoElement.srcObject.getTracks();
+// function stopCapture(evt) {
+//     let tracks = videoElement.srcObject.getTracks();
 
-    tracks.forEach((track) => track.stop());
-    videoElement.srcObject = null;
-}
+//     tracks.forEach((track) => track.stop());
+//     videoElement.srcObject = null;
+// }
 
 buttonShare.addEventListener('click', () => {
     selectMediaStream()
@@ -35,6 +35,6 @@ buttonPIP.addEventListener('click', () => {
 
 })
 
-buttonStop.addEventListener('click', () => {
-    stopCapture()
-})
+// buttonStop.addEventListener('click', () => {
+//     stopCapture()
+// })
